@@ -22,6 +22,29 @@ body{
 font-family:Arial,Helvetica,sans-serif;
 color:#222;
 }
+nav{
+margin-top:20px;
+}
+
+
+nav a{
+
+color:white;
+
+text-decoration:none;
+
+margin:0 15px;
+
+font-size:16px;
+
+}
+
+
+nav a:hover{
+
+color:#00aaff;
+
+}
 
 
 header{
@@ -153,6 +176,15 @@ overflow:hidden;
 
 background:white;
 
+transition:0.3s;
+
+}
+
+
+.card:hover{
+
+transform:translateY(-10px);
+
 }
 
 
@@ -261,9 +293,33 @@ font-size:35px;
 
 <header>
 
-<h1>
-LINKWIN GLOBAL
-</h1>
+<img src="logo.jpg"
+style="
+width:220px;
+height:auto;
+">
+
+
+<nav>
+
+<a href="#">
+HOME
+</a>
+
+<a href="#products">
+PRODUCTS
+</a>
+
+<a href="#about">
+ABOUT
+</a>
+
+<a href="#contact">
+CONTACT
+</a>
+
+</nav>
+
 
 <p>
 Hong Kong Automotive Parts Sourcing Partner
@@ -284,11 +340,40 @@ Automotive Parts Sourcing Partner
 Connecting Global Buyers With Reliable China Supply Chain Solutions
 </p>
 
+<a href="#products"
+style="
+display:inline-block;
+margin-top:30px;
+padding:15px 35px;
+background:#0066cc;
+color:white;
+border-radius:30px;
+text-decoration:none;
+font-size:18px;
+">
+Explore Products
+</a>
+
+<a href="#contact"
+style="
+display:inline-block;
+margin-top:30px;
+margin-left:15px;
+padding:15px 35px;
+background:transparent;
+color:white;
+border:2px solid white;
+border-radius:30px;
+text-decoration:none;
+font-size:18px;
+">
+Contact Us
+</a>
 
 </div>
 
 </section>
-<section class="section">
+<section class="section" id="products">
 
 <div class="container">
 
@@ -421,7 +506,7 @@ LED displays and other customized commercial vehicle components.
 
 
 
-<section class="section">
+<section class="section" id="about">
 
 
 <div class="container">
@@ -650,7 +735,7 @@ Global Shipment
 
 
 </section>
-x<section class="contact">
+<section class="contact" id="contact">
 
 
 <h2>
